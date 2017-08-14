@@ -12,7 +12,7 @@
 #define SubscriberPkg_Listener_H
 
 //## auto_generated
-#include <oxf/oxf.h>
+
 //## classInstance itsSensorDataReaderListener
 class SensorDataReaderListener;
 

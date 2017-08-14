@@ -12,6 +12,7 @@
 #include "MainSensorPublishingApplication.h"
 //## auto_generated
 #include "SensorPublisher.h"
+
 //#[ ignore
 SensorPublishingApplicationDP::SensorPublishingApplicationDP() {
     DDS::DomainParticipantFactory* dpf = DDS::DomainParticipantFactory::get_instance();
@@ -53,21 +54,18 @@ SensorPublishingApplicationDP* SensorPublishingApplicationDP::instance() {
 
 int main(int argc, char* argv[]) {
     int status = 0;
-    if(OXF::initialize())
+//    if(OXF::initialize())
         {
             SensorPublisher * p_SensorPublisher;
             p_SensorPublisher = new SensorPublisher;
             //#[ configuration SensorPublishingApplication::rti_linux 
-            p_MyPublisher->publishData();
+//            p_MyPublisher->publishData();
             //#]
-            OXF::start();
+//            OXF::start();
             delete p_SensorPublisher;
             status = 0;
         }
-    else
-        {
-            status = 1;
-        }
+
     return status;
 }
 

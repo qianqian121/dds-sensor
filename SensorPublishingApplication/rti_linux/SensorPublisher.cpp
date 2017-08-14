@@ -13,9 +13,8 @@
 //## auto_generated
 #include "SensorPublisher.h"
 //## attribute SensorDataWriter
-#include "DDSSensorTopicStructLibSupport.h"
+#include <DDSSensorTopicStructLibSupport.h>
 //## auto_generated
-#include "oxf/OMDelay.h"
 //## package PublisherPkg
 
 //## class SensorPublisher
@@ -34,7 +33,7 @@ void SensorPublisher::publishData() {
     char buff[32];
     for (int i = 1; i <= 10; ++i)
     {
-    	OMDelay(1000);
+//    	OMDelay(1000);
     	SensorTopicStruct sensorTopicStruct;
     	SensorTopicStruct_initialize(&sensorTopicStruct);
     	sensorTopicStruct.SensorKeyAttribute = i;
@@ -59,7 +58,7 @@ void SensorPublisher::publishData() {
     	
     	
     	//publish myTopicStruct
-    	publishMyDataWriter(sensorTopicStruct);
+		publishSensorDataWriter(sensorTopicStruct);
     
     	SensorTopicStruct_finalize(&sensorTopicStruct);
     }

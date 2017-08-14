@@ -12,7 +12,7 @@
 #define SensorPublisher_H
 
 //## auto_generated
-#include <oxf/oxf.h>
+
 //##   ignore
 #include "DDSSensorTopicStructLib.h"
 //##   ignore
