@@ -1,0 +1,30 @@
+I-Logix-RPY-Archive version 8.14.0 * 9810313
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 2;
+	- value = "SensorPublishingApplication\\rti_windows\\SensorPublisher.cpp" 8.8.2017::3:30:54
+	"SensorPublishingApplication\\rti_windows\\SensorPublisher.h" 8.8.2017::3:30:54
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 1;
+	- value = "GUID aeca63e9-6fa8-4ced-8590-95e0f5c3f574" "GUID eaf15ee7-4d91-4932-9997-cc67f84c8b14"
+	
+}
+- size = 2;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\DDS_abs_rpy\\PublisherPkg.sbs";
+	- _name = "PublisherPkg";
+	- _id = GUID aeca63e9-6fa8-4ced-8590-95e0f5c3f574;
+}
+- genTime = 8.8.2017::3:30:54;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\DDS_abs_rpy\\PublisherPkg.sbs";
+	- _subsystem = "PublisherPkg";
+	- _name = "SensorPublisher";
+	- _id = GUID 422ec975-6188-4459-a57d-dc9d23a48907;
+}
+- genTime = 8.8.2017::3:30:54;
+

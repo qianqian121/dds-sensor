@@ -1,0 +1,36 @@
+/*********************************************************************
+	Rhapsody	: 8.2.1 
+	Login		: alfred.qiao
+	Component	: SensorTopicStructLib 
+	Configuration 	: rti_linux
+	Model Element	: SensorTopicStruct
+//!	Generated Date	: Tue, 8, Aug 2017  
+	File Path	: SensorTopicStructLib/rti_linux/DDSSensorTopicStructLib.idl
+*********************************************************************/
+
+#ifndef DDSSensorTopicStructLib_H
+#define DDSSensorTopicStructLib_H
+
+// topicStruct term is defined in DDS profile and represents a DDS data struct.
+struct SensorTopicStruct {
+    ////    Attributes    ////
+    
+    boolean SensorBooleanAttribute;		//## attribute SensorBooleanAttribute
+    
+    double SensorDoubleAttribute;		//## attribute SensorDoubleAttribute
+    
+    // The "key" term is defined in DDS profile. It distinguishes an attribute as a key in DDS data struct. The generated code for key is Implementation-based and relies on the property CPP_CG::Configuration::DDSImplementation.
+    long SensorKeyAttribute;//@key		//## attribute SensorKeyAttribute
+    
+    long SensorLongAttribute;		//## attribute SensorLongAttribute
+    
+    // This attributes demonstrates the usage of "Multiplicity" field for screating a sequence long typed data elements.
+    sequence<long> SensorLongSequenceAttribute;		//## attribute SensorLongSequenceAttribute
+    
+    string SensorStringAttribute;		//## attribute SensorStringAttribute
+};
+
+#endif
+/*********************************************************************
+	File Path	: SensorTopicStructLib/rti_linux/DDSSensorTopicStructLib.idl
+*********************************************************************/

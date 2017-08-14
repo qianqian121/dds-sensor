@@ -1,0 +1,47 @@
+I-Logix-RPY-Archive version 8.14.0 * 9810313
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 1;
+	- value = "SensorTopicStructLib/rti_linux/DDSSensorTopicStructLib.idl" 8.9.2017::0:10:49
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 1;
+	- value = "GUID 72db4989-bba4-4084-801b-03e328c6da4f" "GUID eaf15ee7-4d91-4932-9997-cc67f84c8b14"
+	
+}
+- size = 4;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "C:\\Users\\alfred.qiao\\IBM\\Rational\\Rhapsody\\DDS_abs\\DDS_abs_rpy\\TopicsPkg.sbs";
+	- _name = "TopicsPkg";
+	- _id = GUID 72db4989-bba4-4084-801b-03e328c6da4f;
+}
+- genTime = 8.10.2017::18:9:35;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "C:\\Users\\alfred.qiao\\IBM\\Rational\\Rhapsody\\DDS_abs\\DDS_abs_rpy\\TopicsPkg.sbs";
+	- _subsystem = "TopicsPkg";
+	- _class = "TopLevel";
+	- _name = "SensorTopic";
+	- _id = GUID f0e639d2-17d7-44a9-979e-f0c8048576bc;
+}
+- genTime = 8.10.2017::18:9:35;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "C:\\Users\\alfred.qiao\\IBM\\Rational\\Rhapsody\\DDS_abs\\DDS_abs_rpy\\TopicsPkg.sbs";
+	- _subsystem = "TopicsPkg";
+	- _name = "SensorTopicStruct";
+	- _id = GUID 19eaac2f-db20-4a9b-95ea-a32e80b94681;
+}
+- genTime = 8.9.2017::0:12:13;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "C:\\Users\\alfred.qiao\\IBM\\Rational\\Rhapsody\\DDS_abs\\DDS_abs_rpy\\TopicsPkg.sbs";
+	- _subsystem = "TopicsPkg";
+	- _class = "TopLevel";
+	- _name = "SensorContentFilteredTopic";
+	- _id = GUID 7e4e7126-2735-4171-81cb-a7bbb1008315;
+}
+- genTime = 8.10.2017::18:9:35;
+
